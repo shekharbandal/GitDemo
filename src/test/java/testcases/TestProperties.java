@@ -43,4 +43,11 @@ public class TestProperties {
 		  }
 		driver.get("www.google.com");
 	}
+	
+	@Test
+	public void sample() {
+		System.out.println("This is sample test case 1");
+		System.out.println("This is sample test case 2");
+		System.out.println("This is sample test case 3");
+	}
 }
